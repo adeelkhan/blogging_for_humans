@@ -1,0 +1,14 @@
+[main]
+host = https://www.transifex.com
+
+[edx-platform.blogging-for-humans]
+file_filter = blogging_for_humans/conf/locale/<lang>/LC_MESSAGES/django.po
+source_file = blogging_for_humans/conf/locale/en/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[edx-platform.blogging-for-humans-js]
+file_filter = blogging_for_humans/conf/locale/<lang>/LC_MESSAGES/djangojs.po
+source_file = blogging_for_humans/conf/locale/en/LC_MESSAGES/djangojs.po
+source_lang = en
+type = PO
